@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+build/build/MP4[[:space:]]to[[:space:]]FBX.pkg filter=lfs diff=lfs merge=lfs -text
+dist/BlenderPortable/blender.exe filter=lfs diff=lfs merge=lfs -text
+dist/MP4[[:space:]]to[[:space:]]FBX.exe filter=lfs diff=lfs merge=lfs -text
